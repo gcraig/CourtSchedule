@@ -1,0 +1,1 @@
+@sqlite3 ..\db\schedule.db "delete from schedule; vacuum;"

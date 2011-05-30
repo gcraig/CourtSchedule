@@ -1,0 +1,7 @@
+notes.txt
+*.py~
+.idea
+*.iml
+import
+db
+backup
