@@ -19,11 +19,6 @@ datafile_insert = "insert into schedule (schedule_name, schedule_date, schedule_
 datafile_spec = "*.txt"
 datafile_sql = "select count(schedule_name) from schedule"
 
-def parsedate(ln, dateptn):
-    match = dateptn.search(ln[20:29])
-    date = "%s/%s/%s" % match.group(1), match.group(2), match.group(3)
-    return date
-
 def fetchdata():
     print "fetching data..."
     for filename in xrange(ord('A'), ord('Z')+1):
