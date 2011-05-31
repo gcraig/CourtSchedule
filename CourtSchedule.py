@@ -9,7 +9,7 @@ import time
 import urllib
 
 # A simple ETL script to import court schedule data from Will County, Illinois.
-# (c)2011. George Craig
+# (c)2011. George Craig <georgeacraig@gmail.com>
 
 import_path = "import/"
 db_path = "db/schedule.db"
