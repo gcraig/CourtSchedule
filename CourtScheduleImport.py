@@ -68,9 +68,6 @@ def importdata():
         conn.commit()
         conn.close()
 
-def dumpdata():
-    print "dumping data..."
-
 def fetchstatus(x,y,z):
     print "% 3.1f%% of %d bytes\r" % (min(100, float(x * y) / z * 100), z),
     sys.stdout.flush()
