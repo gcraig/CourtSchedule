@@ -77,7 +77,7 @@ if __name__ == "__main__":
     total = 0
     start = time.clock()
     fetchdata()
-    importdata()
+    #importdata()
     end = time.clock()
     elapsed = end - start
     print "%.2f secs" % elapsed
